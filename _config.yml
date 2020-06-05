@@ -56,34 +56,31 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name: "First Lastname"
+  name: "Zack Adlington"
   avatar: "/assets/images/bio-photo.jpg"
-  bio: "My awesome biography constrained to a sentence or two goes here."
+  bio: "Career-changer, aspiring full-stack developer and former Royal Navy officer.  Bristol, UK."
   links:
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
+      url: "https://twitter.com/zackads"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
+      url: "https://github.com/zackads"
+    - label: "LinkedIn"
       icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://linkedin.com/in/zackadlington"
 
 footer:
   links:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
+      url: "https://twitter.com/zackads"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
+      url: "https://github.com/zackads"
+    - label: "LinkedIn"
       icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://linkedin.com/in/zackadlington"
 
 defaults:
   # _posts
