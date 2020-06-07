@@ -14,6 +14,14 @@ This is the big one! A stock trading app, allowing the user to register, log in,
 
 ## pset8: finance (SQL, APIs, authentication)
 
+### The Brief
+
+From the [CS50 website](https://cs50.harvard.edu/x/2020/tracks/web/finance/):
+
+> Implement a website via which users can “buy” and “sell” stocks, a la the below.
+
+![Screenshot showing the desired Finance user interface](/assets/images/finance.png)
+
 CS50 does start you off with a lot of the scaffolding in its distribution code. The basic site structure is there, and the student is required to first configure the Flask routes and complete the `register`, `quote`, `buy`, `sell`, `history` and `index` functions. These require you to use SQL to query and `INSERT` rows into tables of your choosing.
 
 This was the most fun part to me. How to structure the data so it best met the functional requirements of the app?

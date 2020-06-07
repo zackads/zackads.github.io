@@ -1,8 +1,37 @@
 ---
 permalink: /about/
 title: "About"
+layout: "single"
+
+gallery:
+  - url: /assets/images/about/helicopter.jpg
+    image_path: /assets/images/about/helicopter.jpg
+    alt: "Photographing terrain from above"
+    title: "Photographing terrain from above"
+  - url: /assets/images/about/ras.jpg
+    image_path: /assets/images/about/ras.jpg
+    alt: "Replenishing at sea"
+    title: "Replenishing at sea"
+  - url: /assets/images/about/hmtq.jpg
+    image_path: /assets/images/about/hmtq.jpg
+    alt: "Hosting the Queen for lunch"
+    title: "Hosting the Queen for lunch"
+  - url: /assets/images/about/norway.jpg
+    image_path: /assets/images/about/norway.jpg
+    alt: "Cold weather survival training"
+    title: "Cold weather survival training"
 ---
 
-Tempor velit sint sunt ipsum tempor enim ad qui ullamco. Est dolore anim ad velit duis dolore minim sunt aliquip amet commodo labore. Ut eu pariatur aute ea aute excepteur laborum. Esse ea esse excepteur minim mollit qui cillum excepteur ex dolore magna. Labore deserunt fugiat incididunt incididunt sint ea. Consequat dolore aute laboris quis proident quis non et est consectetur ex eiusmod sit culpa.
+Hi there 👋, my name is Zack. I'm a career changer and aspiring [software craftsman](https://www.amazon.co.uk/Pragmatic-Programmer-journey-mastery-Anniversary/dp/0135957052/ref=sr_1_1?dchild=1&keywords=pragmatic+programmer&qid=1591551601&s=books&sr=1-1) based in Bristol, UK.
 
-Cupidatat ea do et in excepteur in. Ad nostrud ut est esse eu duis ea sunt eiusmod. Aliquip tempor veniam sint elit fugiat. Velit incididunt laboris amet incididunt labore dolore irure velit excepteur commodo deserunt laborum. Consectetur eu fugiat veniam veniam Lorem labore magna eiusmod. Ea occaecat reprehenderit pariatur consectetur minim labore ut aliquip.
+I have 12 years' experience delivering in challenging circumstances across the world during my career in the Royal Navy and Royal Marines.
+
+{% include gallery layout='half' %}
+
+Right now, I'm learning how to write great software.
+
+I use this site to reflect on my journey, signpost the resources that have helped me and talk about projects I am working on.
+
+I'm looking for a fun team that really cares about code quality where I can learn from great people.
+
+Does it sound like we're into the same stuff? [Get in touch](https://www.linkedin.com/in/zack-adlington), I'd love to hear from you.
