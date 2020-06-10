@@ -73,7 +73,7 @@ Here's a rough breakdown of what I encountered on this journey.
 
 ### Geocoding locations
 
-I make no secret of my love of maps. Terrain analysis was one of my favourite parts of my job as a [Royal Marine](/about) page).
+I make no secret of my love of maps. Terrain analysis was one of my favourite parts of my job as a [Royal Marine](/about).
 
 The 'where' of these job vacancies was also very important to me. There's no point in gathering vacancy data for jobs that the user can't get to.
 
@@ -87,7 +87,7 @@ Using the [GeoPy](https://geopy.readthedocs.io/en/stable/) library, I then creat
 
 2. If that returns `False` ("Biscuit error: Hob Nobs not found"), attempt to geocode the `location` field and the `where` search term. So, if you search for a keyword in `Bristol`, this step will attempt to geocode a single job listing's `location` field near `Bristol`. This is less accurate than step 1, hence that being attempted first.
 
-3. If all else fails, just geocode the `where` search term. This will return a lat long that's in the same city at least, though it may suggest that a job is located in the city centre when it's really in the suburbs. (It's debatable that I should have just had it return `None` where no suitably accurate geolocation is made, as inaccurate data is in some cases worse than no data.)
+3. If all else fails, just geocode the `where` search term. This will return a latitude and longitude that's in the same city at least, though it may suggest that a job is located in the city centre when it's really in the suburbs. (It's debatable that I should have just had it return `None` where no suitably accurate geolocation is made, as inaccurate data is in some cases worse than no data.)
 
 The code snippet for this functionality is here:
 
@@ -115,16 +115,16 @@ My work up until now has been predominately in the [happy path](https://en.wikip
 
 This project introduced several unpredictable moving parts where things might go wrong:
 
-- Requesting each web page from Indeed.co.uk;
-- The geocoding functionality described above;
+- Requesting each web page from Indeed.co.uk.
+- The geocoding functionality described above.
 - Saving to file.
 
 This caused me to cut my teeth on error handling.
 
 Chapter 7 of [Uncle Bob's Clean Code](https://www.amazon.co.uk/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882) is really good for this, if it does require a bit of on-the-fly Java comprehension. The basic principles are:
 
-1. It's generally better to try to execute a code block and handle what happens if things go wrong than write lots of conditional, input-checking code to avoid things going wrong in the first place; _(in code, as in life...)_
-2. Separate the concern of error handling into one place away from the main logic;
+1. It's generally better to try to execute a code block and handle what happens if things go wrong than write lots of conditional, input-checking code to avoid things going wrong in the first place. (in code, as in life...)
+2. Separate the concern of error handling into one place away from the main logic.
 3. Use informative messages when things do go wrong.
 
 (Important distinction here between an 'error', which cannot be handled and are fatal to a program at runtime (e.g. `syntax error`), and an 'exception', which can and should be handled to improve the robustness of the program.)
@@ -195,9 +195,9 @@ You may disagree! Please [get in touch](/about), I'd really like to hear what yo
 
 Despite question marks I still have over some of the design decisions I made, I have a working job vacancy scraper that:
 
-- Reliably pulls _all_ job vacancies from an authoritative listings site;
-- Is respectful not to overload the scraped website;
-- Queries a geocoding API in an intelligent way, improving the meaning of the data by getting a specific location;
+- Reliably pulls _all_ job vacancies from an authoritative listings site.
+- Is respectful not to overload the scraped website.
+- Queries a geocoding API in an intelligent way, improving the meaning of the data by getting a specific location.
 
 ### What to do with the data
 
