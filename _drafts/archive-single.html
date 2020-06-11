@@ -25,9 +25,7 @@ include.type | default: "list" }}__item">
     <a href="{{ post.url | relative_url }}" rel="permalink">{{ title }}</a>
     {% endif %}
   </h2>
-  {% if post.date %}
-  <p class="page_meta">{{ post.date | date: "%-d %B %Y"}}</p>
-  {% endif %} {% if post.read_time %}
+  {% if post.read_time %}
   <p class="page__meta">
     <i class="far fa-clock" aria-hidden="true"></i> {% include read-time.html %}
   </p>

@@ -1,7 +1,7 @@
 ---
 title: "JobscraPy: a Python web scraper for job vacancies"
 date: 2020-05-05
-excerpt: "A command line Python script to scrape job vacancies for a given search term from Indeed.co.uk, optionally geocode, and save in JSON.  My first attempt at object-orientated programming."
+excerpt: "A command line Python script to scrape job vacancies for a given search term from Indeed.co.uk, optionally geocode, and save in JSON.  My first attempt at object-oriented programming."
 header:
   teaser: /assets/images/jobs_network.png
 sidebar:
@@ -12,8 +12,7 @@ sidebar:
   - title: "Source code"
     text: "[github.com/zackads/jobscrapy](https://github.com/zackads/jobscrapy)"
   - title: "What I learned"
-    text: "Object-orientated programming; exception handling; defensive design."
-feature_row:
+    text: "Object-oriented programming; exception handling; defensive design."
 ---
 
 I started this project because, like many career changers, I wanted to know what 'stuff' I should learn to best improve my chances of getting a software engineering job when I leave my [current industry](/about).
@@ -230,12 +229,12 @@ A network graph of the skills across all the job vacancies was also really cool 
 
 There's so much I dipped my toes into here, but the two main takeaways were undoubtedly:
 
-- _More to learn about object-orientated programming and clean code_. This was my first foray into object-orientated programming. Python isn't particularly opinionated on OOP (like Java), so it's been a bit of a challenge to know if I'm doing it right. Attempting to write OOP Python whilst implementing some of Uncle Bob's Clean Code was a steep learning curve, though even if I didn't get it 100% right this time I feel better equipped to continue this voyage of discovery as a result.
+- _More to learn about object-oriented programming and clean code_. This was my first foray into object-oriented programming. Python isn't particularly opinionated on OOP (like Java), so it's been a bit of a challenge to know if I'm doing it right. Attempting to write OOP Python whilst implementing some of Uncle Bob's Clean Code was a steep learning curve, though even if I didn't get it 100% right this time I feel better equipped to continue this voyage of discovery as a result.
 - _Error handling_. Making my app work with unreliable third party services was a real challenge and took me off the 'happy path' and got me thinking about ways to make my code more defensive. With a 1 - 2 hour + execution time for really large datasets, it would have been unacceptable for a user to come back to my app and realised it had crashed, so it's right that I got stuck into this.
 
 ## Future learning opportunities
 
-- _Learn OOP properly_. I've dipped my toes in OOP having tried to grok Uncle Bob's SOLID principles using the Java examples he gives. This has been sub-optimal, as you can probably tell by my codebase. Instead, I need to pick a book or course on OOP in a language that's familiar to me. Dusty Phillips' [Python 3 Object Orientated Programming](https://www.amazon.co.uk/Python-3-Object-Oriented-Programming/dp/1849511268) looks a worthy candidate.
+- _Learn OOP properly_. I've dipped my toes in OOP having tried to grok Uncle Bob's SOLID principles using the Java examples he gives. This has been sub-optimal, as you can probably tell by my codebase. Instead, I need to pick a book or course on OOP in a language that's familiar to me. Dusty Phillips' [Python 3 Object oriented Programming](https://www.amazon.co.uk/Python-3-Object-Oriented-Programming/dp/1849511268) looks a worthy candidate.
 
 ## Summary
 

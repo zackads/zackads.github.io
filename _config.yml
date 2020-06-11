@@ -122,3 +122,5 @@ category_archive:
 tag_archive:
   type: liquid
   path: /tags/
+
+teaser: /assets/images/code_teaser.jpg
