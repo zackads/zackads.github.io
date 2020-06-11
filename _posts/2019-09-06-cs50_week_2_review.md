@@ -6,6 +6,8 @@ categories:
 tags:
   - cs50
   - c
+header:
+  teaser: /assets/images/expectedbehaviour.jpg
 ---
 
 Another week of CS50 and another classic computer science problem solved. This time, the Caesar cipher: how to encrypt your top secret military messages by shifting each letter `x` times up/down the alphabet so the germanic hordes can't tell what you're up to, even if they could read.

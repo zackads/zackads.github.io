@@ -6,9 +6,11 @@ categories:
 tags:
   - cs50
   - learning
+header:
+  teaser: /assets/images/fuel_table.png
 ---
 
-Part 2 of my summary of CS50 and problem sets 7, 8 and the final project. This is where it gets really cool. If you'd told me at the start I would be coding a database-driven stock trading app with user authentication at the end of this course I wouldn't have believed you.
+Part 2 of my summary of [CS50](https://online-learning.harvard.edu/course/cs50-introduction-computer-science) and problem sets 7, 8 and the final project. This is where it gets really cool. If you'd told me at the start I would be coding a database-driven stock trading app with user authentication at the end of this course I wouldn't have believed you.
 
 It felt really gratifying to go from the core concepts of computer science in the early weeks to creating something I could actually show my friends at the end. But enough about my feelings, on to the problem sets!
 

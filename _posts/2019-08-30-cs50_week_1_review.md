@@ -7,6 +7,8 @@ tags:
   - cs50
   - c
   - iteration
+header:
+  teaser: /assets/images/mario_output.png
 ---
 
 cs50 is essentially a weekly two-hour lecture followed by what can seem like a million hours of head-scratching, googling, and trial-and-error-ing to solve the problem sets. Week 1 (2 for humans...) was no different, but did result in an epiphany for me in how I can approach my problems in a more methodical and purposeful way. My full solution (a good old-fashioned nested 'for' loop in C) is at the bottom of this post.

@@ -9,6 +9,8 @@ tags:
   - data structures
   - debugging
   - memory management
+header:
+  teaser: /assets/images/strings_with_addresses.png
 ---
 
 Harold Wilson said a week is a long time in politics. Well, he may have been speaking about Harvard University's [CS50 course](https://www.edx.org/course/cs50s-introduction-to-computer-science). My last post, completing week 2's psets, was made on 10th October. Well, here is week 3's write-up, almost two months later! This developer is not optimised for performance...

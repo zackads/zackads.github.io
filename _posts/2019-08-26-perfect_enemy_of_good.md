@@ -5,6 +5,8 @@ categories:
   - blog
 tags:
   - learning
+header:
+  teaser: /assets/images/voltaire.jpg
 ---
 
 Voltaire is alleged to have delivered this pearl of wisdom that resonates across the ages.

@@ -6,9 +6,11 @@ categories:
 tags:
   - cs50
   - learning
+header:
+  teaser: /assets/images/stronglightcheap.jpg
 ---
 
-Wow, what a journey. CS50 complete and certificate issued! And, I am ashamed to say, not much in the ship's log past the fourth week. I've put together this post to summarise what I did on the remaining problem sets and reflect on cs50, a course that is easily in my top five learning experiences.
+Wow, what a journey. [CS50](https://online-learning.harvard.edu/course/cs50-introduction-computer-science) complete and certificate issued! And, I am ashamed to say, not much in the ship's log past the fourth week. I've put together this post to summarise what I did on the remaining problem sets and reflect on cs50, a course that is easily in my top five learning experiences.
 
 ## The remaining problem sets
 

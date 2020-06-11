@@ -6,6 +6,8 @@ categories:
 tags:
   - cs50
   - learning
+header:
+  teaser: /assets/images/finance.png
 ---
 
 This is the big one! A stock trading app, allowing the user to register, log in, buy and sell shares and log out, all using Flask, SQLite and an API call to [IEX](https://iexcloud.io/docs/api/), a service that returns stock pries in JSON.
