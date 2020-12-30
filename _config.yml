@@ -16,7 +16,7 @@
 title: Zack Adlington
 email: zack@zackadlington.me
 description: >- # this means to ignore newlines until "baseurl:"
-  Career-changer: from Royal Navy logistics officer to software craftsman.
+  Career-changer: from Royal Navy logistics officer to software engineer.
 twitter_username: zackads
 github_username: zackads
 minimal_mistakes_skin: dark
@@ -58,7 +58,7 @@ plugins:
 author:
   name: "Zack Adlington"
   avatar: "/assets/images/bio-photo.jpg"
-  bio: "Aspiring software craftsman and former Royal Navy officer.  Bristol, UK."
+  bio: "Junior software engineer.  Former Royal Navy officer.  Bristol, UK."
   links:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
@@ -106,6 +106,7 @@ defaults:
     values:
       layout: single
       author_profile: true
+      read_time: true
   # _projects
   - scope:
       path: ""
