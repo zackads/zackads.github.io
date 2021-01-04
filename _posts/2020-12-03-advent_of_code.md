@@ -11,7 +11,7 @@ header:
 
 This was my first year of [Advent of Code](https://www.adventofcode.com). Sucked in by the fun but achievable challenges of the first week, I made a commitment to a couple of people that I would achieve all 25 days this year. My solutions are on [GitHub](https://github.com/zackads/advent_of_code) (spoiler alert: there aren't 25 of them).
 
-![My Advent of Code 2020 score](assets/images/advent_of_code.png)
+![My Advent of Code 2020 score](/assets/images/advent_of_code.png)
 
 I didn't know it at the time, but this commitment was a bit ambitious: in 2019 101,009 people completed day 1 but only 3,112 finished day 25, suggesting a completion rate in the region of 3% [1].
 
