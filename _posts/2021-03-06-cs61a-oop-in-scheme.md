@@ -23,12 +23,29 @@ Follow the steps below to get the OOP working so you can completed homework assi
 
 ## How to get UCB's object-oriented `define-class` etc. lib file working in 2021
 
+I'll use a basic example `oop-homework.scm` file taken from the course lecture notes:
+
+```scheme
+(load "obj.scm")
+
+(define-class (complex real-part imag-part)
+ (method (magnitude)
+         (sqrt (+ (* real-part real-part)
+                  (* imag-part imag-part))))
+ (method (angle)
+         (atan (/ imag-part real-part))) )
+
+(define c (instantiate complex 3 4))
+(print (ask c 'magnitude))
+(print (ask c 'real-part))
+```
+
 Pre-requisites:
 
 - [Docker](www.docker.com)
-- A clean working directory with an OOP scheme file, e.g. `oop-homework.scm` and a copy of `obj.scm` from the [CS61A lib folder](https://inst.eecs.berkeley.edu/~cs61a/sp09/library/obj.scm).
+- A clean working directory with the Scheme file (I'm using `oop-homework.scm` above) and a copy of `obj.scm` from the [CS61A lib folder](https://inst.eecs.berkeley.edu/~cs61a/sp09/library/obj.scm).
 
-Steps
+Steps:
 
 1.  Pull the `stklos` Docker image:
 
@@ -39,7 +56,13 @@ $ docker pull stklos/stklos:1.60
 2.  Execute your `oop-homework.scm` file using the containerised `stklos` environment:
 
 ```bash
-docker run -v$(pwd):/home -ti stklos/stklos:1.40 stklos -f random-generator.scm
+$ docker run -v$(pwd):/home -ti stklos/stklos:1.40 stklos -f oop-homework.scm
 ```
 
-(In contrast to using DrRacket for previous weeks, you'll need to use `(print <expression>)` to see the console output of your programs.)
+Three things to note:
+
+- In contrast to using DrRacket for previous weeks, you'll need to use `(print <expression>)` to see the console output of your programs. If you don't, nothing will show on your screen.
+- You no longer need `#lang racket` and `(require berkeley)` at the start of your `.scm` files.
+- You _do_ need to `(load "obj.scm")` to access the OOP syntactic sugar (`define-class` et al.).
+
+Happy Scheming!
