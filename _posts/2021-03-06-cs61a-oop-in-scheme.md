@@ -6,7 +6,7 @@ categories:
 tags:
   - learning
 header:
-  teaser: /assets/images/sicp_cover.png
+  teaser: /assets/images/sicp_cover.jpeg
 ---
 
 I've been working through Brian Harvey's CS61A course, as recommended by [teachyourselfcs.com](teachyourselfcs.com). It's mind-blowing, but it's also almost ten years old now and uses a [variant of Scheme](https://people.eecs.berkeley.edu/~bh/61a-pages/Scheme/) last updated in 2008.
