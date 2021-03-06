@@ -6,7 +6,7 @@ categories:
 tags:
   - learning
 header:
-  teaser: /assets/images/advent_of_code.png
+  teaser: /assets/images/sicp_cover.png
 ---
 
 I've been working through Brian Harvey's CS61A course, as recommended by [teachyourselfcs.com](teachyourselfcs.com). It's mind-blowing, but it's also almost ten years old now and uses a [variant of Scheme](https://people.eecs.berkeley.edu/~bh/61a-pages/Scheme/) last updated in 2008. Naturally, the macOS binaries are 32-bit and so don't work on anything more recent than Catalina. Even worse, the [object-oriented syntactic sugar file](https://inst.eecs.berkeley.edu/~cs61a/sp09/library/obj.scm) provided by the UCB faculty was written in the year 2000!
