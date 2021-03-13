@@ -111,7 +111,7 @@ Set shell variable STKLOS_FRAMES to set visible frames
 EXIT
 ```
 
-Various alternatives to `with-module scheme` (including `Scheme`, `STklos`, `stklos` etc.). Nothing's coming up on Google either. It looks like the passage of time has killed this one.
+Various alternatives to `with-module scheme` (including `Scheme`, `STklos`, `stklos` etc.) are fruitless, and nothing is coming up on Google. It looks like the passage of time has killed this one.
 
 I'm sadly now going to skip the OOP goodness of Project 3. If you're reading this and feeling some FOMO at the prospect of not doing Project 3, try checking out the [similar project in the Python version of CS61A](https://inst.eecs.berkeley.edu/~cs61a/fa15/lab/lab06/). It might scratch that itch.
 
