@@ -68,3 +68,51 @@ Three things to note:
 - You _do_ need to `(load "obj.scm")` to access the OOP syntactic sugar (`define-class` et al.).
 
 Happy Scheming!
+
+--- EDIT 13 March ---
+
+Unfortunately, stklos doesn't seem to be able to get round some of the dependencies the Spring 2011 version of CS61A has on STk. The version of `obj.scm` required for Project 3, the adventure game, includes a couple of extra methods that depend on STk modules. This `object?` procedure is the offender that's causing me headaches:
+
+```scheme
+; An object is a compound procedure with a single argument.
+; (Really, an object is a dispatch procedure, but we can't look inside
+; the definition to make sure it always returns a procedure or
+; a NO-METHOD marker.)
+; We use the STk-specific WITH-MODULE to make sure we get the built-in
+; version of PROCEDURE-BODY (also an STkism), rather than an override.
+(define (object? obj)
+  (and (procedure? obj)
+        (let ((lambda-exp ((with-module scheme procedure-body) obj)))
+	 (and lambda-exp
+	      (let ((args (cadr lambda-exp)))
+		(and (list? args)
+		     (= 1 (length args)) ))))))
+```
+
+Gives me:
+
+```
+**** Error while executing file "game.scm"
+	 Where: in object?
+	Reason: variable `Scheme' unbound
+
+  - <<let/call>>
+  - <<let/call>>
+  - <<let/call>>
+  - object?
+  - ask
+  - instantiate
+  - %execute
+  - #[closure 7f55aaf6feb0]
+  - call-with-values
+  - dynamic-wind
+  - ...
+Set shell variable STKLOS_FRAMES to set visible frames
+EXIT
+```
+
+Various alternatives to `with-module scheme` (including `Scheme`, `STklos`, `stklos` etc.). Nothing's coming up on Google either. It looks like the passage of time has killed this one.
+
+I'm sadly now going to skip the OOP goodness of Project 3. If you're reading this and feeling some FOMO at the prospect of not doing Project 3, try checking out the [similar project in the Python version of CS61A](https://inst.eecs.berkeley.edu/~cs61a/fa15/lab/lab06/). It might scratch that itch.
+
+Have you got this working? Please do get in touch using the details on the sidebar.
