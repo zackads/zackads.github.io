@@ -1,23 +1,23 @@
 ---
-title: "Armed forces fuel order form"
+title: 'Armed forces fuel order form'
 date: 2020-03-15
-excerpt: "A responsive web form for military units to order fuel.  Built using HTML, CSS and JavaScript. Calls Mapbox API to display the delivery address and features custom validation and confirmation steps."
+excerpt: 'A responsive web form for military units to order fuel.  Built using HTML, CSS and JavaScript. Calls Mapbox API to display the delivery address and features custom validation and confirmation steps.'
 header:
   teaser: /assets/images/fuel_order_form.png
 sidebar:
-  - title: "The brief"
+  - title: 'The brief'
     image: /assets/images/fuel_order_form.png
-    image_alt: "Screenshot of project"
-    text: "Create a web form so armed forces units can order fuel through the MoD supply chain."
-  - title: "Source code"
-    text: "[codepen.io/zack_45/pen/qBdoejN](https://www.codepen.io/zack_45/pen/qBdoejN)"
-  - title: "Live demo"
-    text: "[codepen.io/zack_45/full/qBdoejN](https://codepen.io/zack_45/full/qBdoejN)"
-  - title: "What I learned"
+    image_alt: 'Screenshot of project'
+    text: 'Create a web form so armed forces units can order fuel through the MoD supply chain.'
+  - title: 'Source code'
+    text: '[codepen.io/zack_45/pen/qBdoejN](https://www.codepen.io/zack_45/pen/qBdoejN)'
+  - title: 'Live demo'
+    text: '[codepen.io/zack_45/full/qBdoejN](https://codepen.io/zack_45/full/qBdoejN)'
+  - title: 'What I learned'
     text: "Responsive design; vanilla JavaScript functions; Mapbox API; styling to client's spec."
 feature_row:
   - image_path: /assets/images/wellington.jpg
-    alt: "Duke of Wellington"
+    alt: 'Duke of Wellington'
     excerpt: '<em>"So long as I retain an independent position, I shall see no officer under my command is debarred by attending to the futile drivelling of mere quill-driving from attending to his first duty, which is and always has been to train the private men under his command that they may without question beat any force opposed to them in the field."</em><br><br> - The Duke of Wellington to the Secretary of State for War during the Peninsular Campaign<sup>1</sup>'
 ---
 
@@ -138,6 +138,6 @@ Overall, a great learning experience that required me to develop some useful ski
 
 ---
 
-<sup>1</sup> I found no authoritative attribution or source document for this quote. I suspect it was made up much later than the Peninsular War by a junior officer, perhaps disappointed that his new job involved a lot more 'futile drivelling' and 'quill-driving' than the adverts had led him to believe.
+<sup>1</sup> I found no authoritative attribution or source document for this quote. I suspect it was made up much later than the Peninsular War by a junior officer, perhaps disappointed that his new job involved a lot more 'futile drivelling' and 'quill-driving' than the adverts had led him or her to believe.
 
 <sup>2</sup> The swivel-charing/transposing/re-keying phenomenon is so common there are many terms for it.

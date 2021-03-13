@@ -1,28 +1,28 @@
 ---
 permalink: /about/
-title: "About"
-layout: "single"
+title: 'About'
+layout: 'single'
 
 gallery:
   - url: /assets/images/about/helicopter.jpg
     image_path: /assets/images/about/helicopter.jpg
-    alt: "Photographing terrain from above"
-    title: "Photographing terrain from above"
+    alt: 'Photographing terrain from above'
+    title: 'Photographing terrain from above'
   - url: /assets/images/about/ras.jpg
     image_path: /assets/images/about/ras.jpg
-    alt: "Replenishing at sea"
-    title: "Replenishing at sea"
+    alt: 'Replenishing at sea'
+    title: 'Replenishing at sea'
   - url: /assets/images/about/hmtq.jpg
     image_path: /assets/images/about/hmtq.jpg
-    alt: "Hosting the Queen for lunch"
-    title: "Hosting the Queen for lunch"
+    alt: 'Hosting the Queen for lunch'
+    title: 'Hosting the Queen for lunch'
   - url: /assets/images/about/norway.jpg
     image_path: /assets/images/about/norway.jpg
-    alt: "Cold weather survival training"
-    title: "Cold weather survival training"
+    alt: 'Cold weather survival training'
+    title: 'Cold weather survival training'
 ---
 
-Hi there 👋, my name is Zack. I'm a junior software engineer based in Bristol, UK. I work at Made Tech, a consultancy that does [software-y stuff](https://www.madetech.com/services) for the UK public sector using open source and cloud technologies.
+Hi there 👋, my name is Zack. I'm a software engineer based in Bristol, UK. I work at Made Tech, a consultancy that does [software-y stuff](https://www.madetech.com/services) for the UK public sector using open source and cloud technologies.
 
 Before I became a software engineer, I spent 12 years delivering in challenging circumstances across the world during my career in the Royal Navy and Royal Marines.
 
